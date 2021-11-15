@@ -1,0 +1,49 @@
+﻿<Window x:Class="WPF_Practic.Private_Cabinet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Practic"
+        mc:Ignorable="d"
+        Title="Лаборант" Height="450" Width="600" Icon="Icons/logo.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="169*"/>
+            <ColumnDefinition Width="193*"/>
+            <ColumnDefinition Width="238*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" Background="#FF92D050">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="151*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="107*"/>
+                <RowDefinition Height="71*"/>
+            </Grid.RowDefinitions>
+            <Image Source="Icons/laborant_1.png" Grid.Row="0" HorizontalAlignment="Center" Width="161"/>
+            <TextBlock Text="Фамилия:" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="14" Height="20" Width="65"/>
+            <TextBlock Text="Имя:" Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="14" Height="19" Width="32"/>
+            <TextBlock Text="Пароль:" Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Comic Sans MS" FontSize="14"/>
+            <Border BorderThickness="0.5" Grid.RowSpan="6" BorderBrush="#FF349C3D"/>
+            <StackPanel Background="#FF349C3D" Grid.Column="0" Grid.Row="3" Margin="0,35,0,0" Grid.RowSpan="3" />
+            <Button Content="Выйти" Background="#FF92D050" Grid.Column="0" Grid.Row="5" FontSize="16" FontFamily="Comic Sans MS" BorderBrush="Black" Margin="20,20,20,20"/>
+        </Grid >
+        <Grid Grid.Row="0" Grid.Column="2" Background="#FF92D050">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="27*"/>
+                <RowDefinition Height="67*"/>
+                <RowDefinition Height="66*"/>
+                <RowDefinition Height="274*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="Bio" Grid.Column="0" Grid.Row="1" Content="Прием биоматериалов" FontFamily="Comic Sans MS" FontSize="18" BorderBrush="Black" Background="#FF349C3D" Click="Bio_Click"/>
+            <Button x:Name="DoOtchet" Background="#FF349C3D" Grid.Column="0" Content="Отчеты" FontFamily="Comic Sans MS" FontSize="18" BorderBrush="Black" Grid.Row="2" Click="DoOtchet_Click"/>
+            <TextBlock Text="Функции" Grid.Row="0" FontFamily="Comic Sans MS" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Image Source="Icons/logo.png" Grid.Column="0" Grid.Row="3" Margin="159,194,0,0" Width="80" Height="80"/>
+        </Grid>
+
+    </Grid>
+</Window>
