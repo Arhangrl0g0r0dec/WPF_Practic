@@ -13,6 +13,9 @@
     <Compile Update="FormZak.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="laborant2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Otchet.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -24,7 +27,13 @@
     <Page Update="Biomat.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="FormZak.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="laborant2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

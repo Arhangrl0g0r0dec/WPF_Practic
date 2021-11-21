@@ -25,3 +25,6 @@ C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подг
 C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подготовка к Демо\Разработка кода\Задание 2\WPF_Practic.git\WPF_Practic\WPF_Practic\obj\Debug\netcoreapp3.1\FormZak.g.cs
 C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подготовка к Демо\Разработка кода\Задание 2\WPF_Practic.git\WPF_Practic\WPF_Practic\obj\Debug\netcoreapp3.1\FormZak.baml
 C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подготовка к Демо\Разработка кода\Задание 2\WPF_Practic.git\WPF_Practic\WPF_Practic\obj\Debug\netcoreapp3.1\WPF_Practic.csprojAssemblyReference.cache
+C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подготовка к Демо\Разработка кода\Задание 2\WPF_Practic.git\WPF_Practic\WPF_Practic\obj\Debug\netcoreapp3.1\laborant2.g.cs
+C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подготовка к Демо\Разработка кода\Задание 2\WPF_Practic.git\WPF_Practic\WPF_Practic\obj\Debug\netcoreapp3.1\Dictionary1.baml
+C:\Users\Arhangel0g0r0dec\Dropbox\Мой ПК (DESKTOP-QGTC8N5)\Desktop\Подготовка к Демо\Разработка кода\Задание 2\WPF_Practic.git\WPF_Practic\WPF_Practic\obj\Debug\netcoreapp3.1\laborant2.baml

@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:WPF_Practic"
         mc:Ignorable="d"
         Title="Biomat" Height="450" Width="600">
-    <Grid>
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid Style="{DynamicResource Back}">
         <Grid.RowDefinitions>
             <RowDefinition Height="33*"/>
             <RowDefinition Height="47*"/>
@@ -19,7 +28,7 @@
             <ColumnDefinition Width="189*"/>
             <ColumnDefinition Width="206*"/>
         </Grid.ColumnDefinitions>
-        <ListBox Grid.Row="1" Grid.Column="0" Grid.RowSpan="3"  FontFamily="Comic Sans MS" FontSize="16" Background="#FF92D050" Margin="0,47,0,0">
+        <ListBox Grid.Row="1" Grid.Column="0" Grid.RowSpan="3"  Style="{DynamicResource ListBoxStyle}" Margin="0,47,0,0">
             <ListBoxItem Content="Биоматериал 1"/>
             <ListBoxItem Content="Биоматериал 2"/>
             <ListBoxItem Content="Биоматериал 3"/>
@@ -30,12 +39,12 @@
             <ListBoxItem Content="Биоматериал 8"/>
             <ListBoxItem Content="И т.д."/>
         </ListBox>
-        <TextBlock Text="Список биоматериалов" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" FontFamily="Comic Sans MS" Height="23" Width="179"/>
-        <TextBlock Text="Прием биоматериалов" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="20" Height="27" Width="223"/>
+        <TextBlock Text="Список биоматериалов" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource TextStyle16}" Height="23" Width="179"/>
+        <TextBlock Text="Прием биоматериалов" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{DynamicResource TextStyle18}" Height="27" Width="223"/>
         <Border BorderThickness="0.5" Grid.Column="0" Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="3" BorderBrush="Black"/>
         <Button Content="Сформировать заказ" Grid.Column="2" Grid.Row="2" Background="#FF349C3D" FontFamily="Comic Sans MS" FontSize="14" Click="Button_Click" />
-        <StackPanel Background="#FF92D050" Grid.Column="2" Grid.Row="2" Margin="0,47,0,0" Grid.RowSpan="3"/>
-        <TextBlock Text="Функции" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="16" Height="23" Width="66" />
+        <StackPanel Style="{DynamicResource Back}"  Grid.Column="2" Grid.Row="2" Margin="0,47,0,0" Grid.RowSpan="3"/>
+        <TextBlock Text="Функции" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{DynamicResource TextStyle16}" Height="23" Width="66" />
         <Button Grid.Column="0" Grid.Row="4" Margin="5,4,165,5" >
             <Button.Background>
                 <ImageBrush ImageSource="/Icons/Back.png"/>
